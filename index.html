@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>FORM</title>
+    <link rel="stylesheet" href="sheets.css" type="text/css"/>
+    <script src="register.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h1>REGISTRATION FORM</h1>
+   
+    <form name="registration" onSubmit="return formValidation();">     
+        <ul>
+        <li><label for="name">FirstName:</label></li>
+        <li><input type="text" name="name"  required/></li>
+    
+        <li><label for="lname">LastName:</label></li>
+        <li><input type="text" name="lname" required /></li>
+        
+        <li><label for="email">Email ID:</label></li>
+       <li><input type="email" name="email"  required/></li>
+
+        
+        <li><label for="passid">Password:</label></li>
+        <li><input type="password" name="passid" required/></li>
+
+       <li><label for="phone">Mobile Number:</label></li>
+       <li><input type="tel" name="phone" required/></li>
+       
+        <li><label for="dob">Dob:</label></li>
+        <li><input type="date" name="dob" required/></li>
+       
+        <li><label for="fname">Father's Name:</label></li>
+        <li><input type="text" name="fname" required/></li>
+
+        <li><label for="mname">Mother's name:</label></li>
+        <li><input type="text" name="mname" required/></li>
+        
+        <li><label for="cour">Course:</label></li>
+           <select id="course" name="cour" required>
+            <option value="se">--</option>
+            <option value="cse">CSE</option>
+            <option value="it">IT</option>
+            <option value="ece">ECE</option>
+            <option value="eee">EEE</option>
+            <option value="mech">MECH</option>
+       </select></li>
+
+       <li><label for="gen">Gender:</label></li>
+       <select id="gender" name="gen" required>
+            <option value="ge">--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            
+       </select></li>
+
+       <li><label for="sta">State:</label></li>
+       <select id="state" name="sta" required>
+            <option value="se">--</option>
+            <option value="tn">Tamilnadu</option>
+            <option value="kar">Karnataka</option>
+            <option value="ker">Kerala</option>
+            <option value="andhra">Andhra</option>
+            <option value="assam">Assam</option>
+            <option value="others">Others</option>
+       </select></li>
+
+       <li><label for="dis">District:</label></li>
+        <li><input type="text" name="dis"required/></li>
+
+        <li><label for="city">City:</label></li>
+        <li><input type="text" name="city"required/></li>
+
+        <li><label for="area">Area:</label></li>
+        <li><input type="text" name="area"required/></li>
+
+        <li><label for="pin">PinCode:</label></li>
+       <li><input type="text" name="pin"required/></li>
+       
+       
+        <li><label for="lang">Language:</label></li>
+        <select id="language" name="lang" required>
+            <option value="se">--</option>
+            <option value="ta">Tamil</option>
+            <option value="eng">English</option>
+            <option value="others">Others</option>
+       </select></li>
+        
+     
+
+      
+      <li><input type="submit" value="Submit"></li>
+
+    
+    
+    </ul>
+
+
+    </form>
+</div>
+
+</body>
